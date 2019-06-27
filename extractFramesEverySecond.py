@@ -3,6 +3,11 @@
 # Usage :extract_frames_every_second(videos1,OUT_DIR)
 # Returns: times taken
 
+import cv2
+import math
+import time
+
+
 def extract_frames_every_second(video_file, output_folder):
     import tqdm
     t1= time.time()
